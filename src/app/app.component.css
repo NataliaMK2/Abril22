@@ -1,0 +1,16 @@
+h1 {
+    color: #006400; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav .menu-item {
+    display: inline;
+    background-color: #008000; 
+    margin-right: 10px;
+  }
+  

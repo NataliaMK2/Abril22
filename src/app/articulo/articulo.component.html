@@ -1,0 +1,17 @@
+<div>
+  <h2>{{ articulos[0].titulo }}</h2>
+  <p [hidden]="!mostrar0">{{ articulos[0].info }}</p>
+  <img src="{{ articulos[0].imagen }}" alt="Imagen del artículo 1" (click)="mostrar0 = !mostrar0">
+</div>
+
+<div>
+  <h2>{{ articulos[1].titulo }}</h2>
+  <p [hidden]="!mostrar1">{{ articulos[1].info }}</p>
+  <img src="{{ articulos[1].imagen }}" alt="Imagen del artículo 2" (click)="mostrar1 = !mostrar1">
+</div>
+
+<div>
+  <h2>{{ articulos[2].titulo }}</h2>
+  <p [hidden]="!mostrar2">{{ articulos[2].info }}</p>
+  <img src="{{ articulos[2].imagen }}" alt="Imagen del artículo 3" (click)="mostrar2 = !mostrar2">
+</div>
